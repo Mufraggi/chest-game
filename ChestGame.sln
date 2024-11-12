@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChestGame", "ChestGame\ChestGame.fsproj", "{43C5A382-A0A6-4F61-BBC9-F85ADC11AC6A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChestGame.App", "ChestGame.App\ChestGame.App.fsproj", "{43C5A382-A0A6-4F61-BBC9-F85ADC11AC6A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChestGame.Domain", "ChestGame.Domain\ChestGame.Domain.fsproj", "{EFAA0B30-54DE-4DE4-8F58-DD598E2BBA5B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChestGame.Tests", "ChestGame.Tests\ChestGame.Tests.fsproj", "{9F84EC36-EBF3-4896-8C6E-A0D628029379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{43C5A382-A0A6-4F61-BBC9-F85ADC11AC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C5A382-A0A6-4F61-BBC9-F85ADC11AC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C5A382-A0A6-4F61-BBC9-F85ADC11AC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAA0B30-54DE-4DE4-8F58-DD598E2BBA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAA0B30-54DE-4DE4-8F58-DD598E2BBA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAA0B30-54DE-4DE4-8F58-DD598E2BBA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAA0B30-54DE-4DE4-8F58-DD598E2BBA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F84EC36-EBF3-4896-8C6E-A0D628029379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F84EC36-EBF3-4896-8C6E-A0D628029379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F84EC36-EBF3-4896-8C6E-A0D628029379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F84EC36-EBF3-4896-8C6E-A0D628029379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
